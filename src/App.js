@@ -11,6 +11,7 @@ class App extends Component {
     }
   }
 
+  //using local storage in project, sets a key value pair for every input
   updateInput(key, value){
     //update react state
     this.setState({
@@ -55,10 +56,26 @@ class App extends Component {
           />
 
           <button
-            onClick={() => this.addItem()}
+            onClick={() => this.addItem()} //button adds the text of user inputs in input (field), that will contain a onclick
+                                           //will call a function additem everytime its clicked
           >
             Add
           </button>
+          <br/>
+          <ul>                          {/* mapp over the list current items in the list, the ones we can delete */}
+          {this.state.list.map(item => {
+          return(
+            <li key={item.id}>        {/* we are mapping over the items, so we must include a key/id as every id is unique */}
+              {item.value}
+              <button
+                onClick={() => this.deleteItem(item.id)} //we are adding a delete button to each item in the list
+              >
+              X
+              </button>
+            </li>
+          )
+        })}
+          </ul>
         </div>
       </div>
     )
