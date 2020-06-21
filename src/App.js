@@ -41,6 +41,16 @@ class App extends Component {
     })
   }
 
+  deleteItem(id){
+    //copy the current list of the items
+    const list = [...this.state.list]
+
+    //filter out item being updated
+    const updatedList = list.filter(item => item.id !== id)
+
+    this.setState({list: updatedList}) //sets the new state as the new updated list with the deleted item
+  }
+
   render() {
     return (
       <div className="App"> {/* remember in JSX classname is the same as class in HTML*/}
