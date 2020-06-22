@@ -54,8 +54,13 @@ class App extends Component {
   render() {
     return (
       <div className="App"> {/* remember in JSX classname is the same as class in HTML*/}
-        <div>         {/* lets the user know to add an item */}
+      <div className="title">
+      MY MUST DO LIST:
+      </div>
+        <div>
+        <div className="additem">         {/* lets the user know to add an item */}
          Add an item...
+         </div>
          <br/>
                     {/* input form */}
          <input
