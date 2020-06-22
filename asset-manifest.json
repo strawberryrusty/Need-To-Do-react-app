@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Need-To-Do-react-app/static/css/main.b1939753.chunk.css",
+    "main.js": "/Need-To-Do-react-app/static/js/main.073ae944.chunk.js",
+    "main.js.map": "/Need-To-Do-react-app/static/js/main.073ae944.chunk.js.map",
+    "runtime-main.js": "/Need-To-Do-react-app/static/js/runtime-main.1adc5614.js",
+    "runtime-main.js.map": "/Need-To-Do-react-app/static/js/runtime-main.1adc5614.js.map",
+    "static/js/2.4cf9e0c3.chunk.js": "/Need-To-Do-react-app/static/js/2.4cf9e0c3.chunk.js",
+    "static/js/2.4cf9e0c3.chunk.js.map": "/Need-To-Do-react-app/static/js/2.4cf9e0c3.chunk.js.map",
+    "index.html": "/Need-To-Do-react-app/index.html",
+    "precache-manifest.f3d60a37e8a3f55f51b97ab67d0bfaa1.js": "/Need-To-Do-react-app/precache-manifest.f3d60a37e8a3f55f51b97ab67d0bfaa1.js",
+    "service-worker.js": "/Need-To-Do-react-app/service-worker.js",
+    "static/css/main.b1939753.chunk.css.map": "/Need-To-Do-react-app/static/css/main.b1939753.chunk.css.map",
+    "static/js/2.4cf9e0c3.chunk.js.LICENSE.txt": "/Need-To-Do-react-app/static/js/2.4cf9e0c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1adc5614.js",
+    "static/js/2.4cf9e0c3.chunk.js",
+    "static/css/main.b1939753.chunk.css",
+    "static/js/main.073ae944.chunk.js"
+  ]
+}
