@@ -13,6 +13,8 @@ THis project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * NPM
 
+* Bootstrap
+
 * HTML5
 
 * CSS3
@@ -24,4 +26,6 @@ THis project was bootstrapped with [Create React App](https://github.com/faceboo
 * Google Fonts
 
 ## Approach going forward
-I would like to edit the lists that are already in the list and improve styling. 
+-I would like to give the option of editing list items
+-Improve Styling.
+-Make the site mobile responsive
